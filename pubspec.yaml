@@ -1,0 +1,33 @@
+name: animerch_app
+description: A Flutter e-commerce app for anime merchandise.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2   # (optional, future state management if needed)
+  cupertino_icons: ^1.0.6 # For iOS-style icons
+  google_fonts: ^6.1.0 # <--- (Add this if you want nice fonts like Poppins!)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/naruto.png
+    - assets/onepiece.png
+    - assets/profile_placeholder.png
+    - assets/logo.png
+    # Add more images as you need
+
